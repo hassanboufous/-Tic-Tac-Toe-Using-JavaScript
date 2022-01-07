@@ -1,0 +1,48 @@
+body {
+    background-image: url(imgs/83330297a781231cb6ca345a0335c0b4f99679da.png);
+    background-size: cover;
+}
+
+.game {
+    font-family: system-ui;
+    width: 700px;
+    text-align: center;
+    color: blue;
+    margin: 20px auto;
+    color: white;
+    font-weight: 700;
+}
+
+.title {
+    background-color: #587e00;
+    padding: 5px 0;
+    font-size: 2rem;
+    width: 522px;
+    position: relative;
+    right: -9px;
+}
+
+span {
+    color: yellow;
+}
+
+.square {
+    width: 160px;
+    height: 160px;
+    background-color: #e61666;
+    float: left;
+    margin: 10px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.tes {
+    background-color: #6b0b30;
+}
